@@ -7,4 +7,19 @@ def time():
     2. Minutos completos restantes
     3. Segundos restantes
     """
+
     total_segundos = 3665
+
+    horas = total_segundos // 60 // 60
+    print(horas)
+
+    minutos = total_segundos // 60 % 60
+    print(minutos)
+
+    segundos = total_segundos % 60
+    print(segundos)
+
+
+
+
+

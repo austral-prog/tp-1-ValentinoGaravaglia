@@ -6,5 +6,13 @@ def rectangle():
     1. El área (base × altura)
     2. El perímetro (2 × base + 2 × altura)
     """
+
     base = 10
     altura = 5
+
+    # 1
+    print(base * altura)
+
+    # 2
+    print((2 * base) + (2 * altura))
+

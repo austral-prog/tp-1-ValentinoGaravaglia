@@ -11,5 +11,35 @@ def math():
     6. El resto de la división entera
     7. El valor real de la división
     """
+
     a = 57
     b = 7
+
+    # 1
+
+    print(a + b)
+
+    # 2
+
+    print(a - b)
+
+    # 3
+
+    print(a * b)
+
+    # 4
+
+    print((a + b) / 2)
+
+    # 5
+
+    print(a // b)
+
+    # 6
+
+    print(a % b)
+
+    # 6
+
+    print(a / b)
+

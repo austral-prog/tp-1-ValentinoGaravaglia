@@ -8,6 +8,22 @@ def grades():
     3. La nota mínima
     4. Cuántos puntos faltan del promedio a 10
     """
+
     nota1 = 8
     nota2 = 7
     nota3 = 9
+
+    promedio = (nota1 + nota2 + nota3) / 3
+    print(promedio)
+
+    maximo = max(nota1, nota2, nota3)
+    print(maximo)
+
+    minimo = min(nota1, nota2, nota3)
+    print(minimo)
+
+    print(10-promedio)
+
+
+
+

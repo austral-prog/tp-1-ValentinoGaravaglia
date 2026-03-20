@@ -7,3 +7,10 @@ def temperature():
     2. La temperatura original en Celsius
     """
     celsius = 25
+
+    # 1
+    print((celsius * (9 / 5) + 32))
+
+    # 2
+    print(celsius)
+
